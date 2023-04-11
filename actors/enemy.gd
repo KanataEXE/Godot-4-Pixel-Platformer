@@ -1,5 +1,6 @@
 extends Actor
 
+@export var score: int
 @export var is_going_left := true
 
 func _ready() -> void:
@@ -29,4 +30,5 @@ func _on_hit_area_body_entered(body: Node2D) -> void:
 		body.die()
 
 func die():
+	GameData.score += score
 	queue_free()

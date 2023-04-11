@@ -1,4 +1,3 @@
-class_name Player
 extends Actor
 
 @export var acceleration: float

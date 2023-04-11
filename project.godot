@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Pixel Platformer"
-run/main_scene="res://levels/base_level.tscn"
+run/main_scene="res://levels/level_00.tscn"
 config/features=PackedStringArray("4.0", "Mobile")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameData="*res://autoloads/game_data.gd"
 
 [display]
 

@@ -52,6 +52,7 @@ size = Vector2(20, 13)
 collision_layer = 4
 collision_mask = 3
 script = ExtResource("2_ldpxf")
+score = 20
 is_going_left = true
 max_speed = 80.0
 
